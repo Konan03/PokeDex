@@ -5,7 +5,6 @@ import { PokemonContext } from '../context/PokemonContext'
 const Navigation = () => {
 
   const context = useContext(PokemonContext)
-  console.log(context)
 
   return (
     <div>
