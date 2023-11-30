@@ -8,6 +8,7 @@ const Navigation = () => {
 
   return (
     <div>
+		<h1>PokéDex Konan</h1>
         <header className='container'>
 				<Link to='/' className='logo'>
 					<img
