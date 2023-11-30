@@ -1,5 +1,6 @@
 import React from 'react'
 import PokemonList from '../components/PokemonList'
+import FilterBar from '../components/FilterBar'
 
 const HomePage = () => {
   return (
@@ -24,6 +25,12 @@ const HomePage = () => {
 				</div>
 			</div>
 			<PokemonList/>
+      <FilterBar />
+            <div className="container-btn-load-more container">
+                <button className='btn-load-more' >
+                    Cargar más
+                </button>
+            </div>
 		</>
   )
 }
