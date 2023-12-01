@@ -68,11 +68,16 @@ const PokemonProvider = ({children}) => {
 
   useEffect(() => {
 		getAllPokemons();
-	}, []);
+	}, [offset]);
 
   useEffect(() => {
 		getGlobalPokemons();
 	}, []);
+
+	// BTN CARGAR MÁS
+	const onClickLoadMore = () => {
+		setOffset(offset + 50);
+	};
 
   return (
     <div>
@@ -82,7 +87,15 @@ const PokemonProvider = ({children}) => {
         onResetForm,
         allPokemons,
         globalPokemons,
-        getPokemonByID
+        getPokemonByID,
+		onClickLoadMore,
+		//loader
+		loading,
+		setLoading,
+		//btn filter
+		active,
+		setActive
+		//filter checkbox
       }}>
         {children}
       </PokemonContext.Provider>
