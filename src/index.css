@@ -22,8 +22,8 @@
 	--color-shadow: #7b62a3;
 	--color-unknow: #757575;
 
-	--color-primary: #200077;
-	--color-primary-hover: #2d059b;
+	--color-primary: #2e2e2e;
+	--color-primary-hover: #474747;
 }
 
 * {
@@ -49,6 +49,18 @@ header {
 
 	padding: 40px 0;
 	border-bottom: 1px solid #ccc;
+}
+
+.iconStyle{
+	color: var(--color-primary);
+	transition: none;
+	align-self: center;
+}
+
+.logo {
+	display: flex;
+	align-items: center; /* Esto alineará verticalmente los elementos hijos */
+	/* Agrega estilos adicionales para espaciado, dirección, etc., según sea necesario */
 }
 
 .logo img {
