@@ -13,7 +13,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='grass'
 						id='grass'
 					/>
@@ -22,7 +22,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='fire'
 						id='fire'
 					/>
@@ -31,7 +31,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='bug'
 						id='bug'
 					/>
@@ -40,7 +40,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='fairy'
 						id='fairy'
 					/>
@@ -49,7 +49,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='dragon'
 						id='dragon'
 					/>
@@ -58,7 +58,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='shadow'
 						id='shadow'
 					/>
@@ -67,7 +67,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='ground'
 						id='ground'
 					/>
@@ -76,7 +76,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='normal'
 						id='normal'
 					/>
@@ -85,7 +85,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='psychic'
 						id='psychic'
 					/>
@@ -94,7 +94,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='steel'
 						id='steel'
 					/>
@@ -103,7 +103,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='dark'
 						id='dark'
 					/>
@@ -112,7 +112,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='electric'
 						id='electric'
 					/>
@@ -121,7 +121,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='fighting'
 						id='fighting'
 					/>
@@ -130,7 +130,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='flying'
 						id='flying'
 					/>
@@ -139,7 +139,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='ice'
 						id='ice'
 					/>
@@ -148,7 +148,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='poison'
 						id='poison'
 					/>
@@ -157,7 +157,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='rock'
 						id='rock'
 					/>
@@ -166,7 +166,7 @@ const FilterBar = () => {
 				<div className='group-type'>
 					<input
 						type='checkbox'
-						
+						onChange={handleCheckbox}
 						name='water'
 						id='water'
 					/>
